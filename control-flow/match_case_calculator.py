@@ -1,5 +1,5 @@
-num1=int(input("Enter the fist number: "))
-num2=int(input("Enter the second number: "))
+num1=input(int("Enter the fist number: "))
+num2=input(int("Enter the second number: "))
 operation= input("Choose the operation (+, -, *, /): ")
 match operation:
     case '+':
